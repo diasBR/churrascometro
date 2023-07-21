@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./image/img2.jpg">
+
+    <title>Churrascômetro</title>
+
+</head>
+
+<body>
+    
+    <nav>
+
+    <header>
+
+    </header>
+
+    <h1>Churrascômetro</h1>
+
+        <div class="container">
+                <input type="number" id="adults" name="adults" placeholder="Adultos" min="0" step="1">
+                <input type="number" id="child" name="child" placeholder="Crianças" min="0" step="1">
+                <input type="number" id="time" name="time" placeholder="Duração (h)" min="0" step="1">
+                <button onclick="calc()">Calcular</button>
+        </div>
+        <div class="response">
+            <div id="results">
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
